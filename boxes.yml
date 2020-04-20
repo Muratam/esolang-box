@@ -24,10 +24,12 @@ base:
     brainfuck-esotope:
       _name: Brainfuck (esotope)
       _link: https://github.com/lifthrasiir/esotope-bfc
+      _disasm: true
     c-gcc:
       _name: C (GCC)
       _link: https://gcc.gnu.org/
     dis:
+      _disabled: true
       _name: Dis
       _link: https://esolangs.org/wiki/Dis
     glass:
@@ -36,12 +38,16 @@ base:
     ruby:
       _name: Ruby 2.6.3
       _link: https://www.ruby-lang.org/
+      ruby-trunk:
+        _name: Ruby trunk
+        _link: https://www.ruby-lang.org/
       golfscript:
         _name: GolfScript
         _link: http://www.golfscript.com/golfscript/tutorial.html
       hexagony:
         _name: Hexagony
         _link: https://github.com/m-ender/hexagony
+        _disasm: true
       stackcats:
         _name: Stack Cats
         _link: https://github.com/m-ender/stackcats
@@ -54,6 +60,7 @@ base:
       starry:
         _name: Starry
         _link: https://esolangs.org/wiki/Starry
+        _disasm: true
       cy:
         _name: Cy
         _link: https://github.com/cyoce/Cy
@@ -72,12 +79,27 @@ base:
       reversed-c:
         _name: reversed-c
         _link: https://github.com/cookie-s/reversed-c
+        _disasm: true
       copos-rb:
         _name: copos (Ruby)
         _link: https://github.com/n4o847/tsg-2018-summer
+        _disasm: true
       golfish:
         _name: golfish
         _link: https://github.com/n4o847/tsg-2018-summer
+      pxem:
+        _name: Pxem
+        _link: https://esolangs.org/wiki/Pxem
+      arithmetic:
+        _name: Arithmetic
+        _link: https://github.com/toyukan6/Arithmetic
+      vim:
+        _name: Vim
+        _link: http://www.vim.org/
+        _disasm: true
+        autovim:
+          _name: Autovim
+          _link: https://github.com/christianrondeau/autovim
     goruby:
       _name: goruby
       _link: https://github.com/ruby/ruby/blob/trunk/man/goruby.1
@@ -129,18 +151,12 @@ base:
     aheui:
       _name: Aheui
       _link: http://aheui.github.io/specification.en
-    whitespace:
-      _name: Whitespace
-      _link: https://esolangs.org/wiki/Whitespace
     beatnik:
       _name: Beatnik
       _link: https://esolangs.org/wiki/Beatnik
     blc:
       _name: Binary lambda calculus
       _link: https://tromp.github.io/cl/cl.html
-    z80:
-      _name: Z80
-      _link: https://sites.google.com/site/codegolfingtips/Home/z80
     spl:
       _name: Shakespeare
       _link: http://shakespearelang.sourceforge.net/
@@ -209,6 +225,27 @@ base:
       fsharp-dotnet:
         _name: F# (.NET Core)
         _link: https://fsharp.org/
+    fortran:
+      _name: Fortran 2018
+      _link: https://gcc.gnu.org/fortran/
+    ring:
+      _name: Ring
+      _link: http://ring-lang.sourceforge.net/
+    snobol:
+      _name: SNOBOL4
+      _link: http://www.snobol4.org/
+    cobol:
+      _name: COBOL
+      _link: https://open-cobol.sourceforge.io/
+    fetlang:
+      _name: Fetlang
+      _link: https://github.com/fetlang/fetlang
+    alphabeta:
+      _name: AlphaBeta
+      _link: https://esolangs.org/wiki/AlphaBeta
+    tcl:
+      _name: Tcl
+      _link: https://www.tcl.tk
   java:
     _name: Java
     _link: https://java.com/
@@ -236,6 +273,9 @@ base:
     whenever:
       _name: Whenever
       _link: http://www.dangermouse.net/esoteric/whenever.html
+    xslt:
+      _name: XSLT
+      _link: http://saxon.sourceforge.net/
   python2:
     _name: Python 2
     _link: https://www.python.org/
@@ -254,6 +294,19 @@ base:
       function2d:
         _name: Function
         _link: https://esolangs.org/wiki/Funciton
+      produire:
+        _name: プロデル
+        _link: https://rdr.utopiat.net/
+      z80:
+        _name: Z80
+        _link: https://sites.google.com/site/codegolfingtips/Home/z80
+        _disasm: true
+      bubble-sort:
+        _name: BubbleSortLanguage
+        _link: https://github.com/lv100tomato/BubbleSortLanguage
+      classic-music-theory:
+        _name: ClassicMusicTheoryForProgrammer
+        _link: https://github.com/lv100tomato/ClassicMusicTheoryForProgrammer
     haystack:
       _name: Haystack
       _link: https://github.com/kade-robertson/haystack
@@ -266,6 +319,7 @@ base:
     unreadable:
       _name: Unreadable
       _link: https://esolangs.org/wiki/Unreadable
+      _disasm: true
     zombie:
       _name: ZOMBIE
       _link: http://www.dangermouse.net/esoteric/zombie.html
@@ -311,6 +365,12 @@ base:
     fish-shell-pure:
       _name: Fish (pure)
       _link: https://fishshell.com/
+    ezhil:
+      _name: எழில்
+      _link: http://ezhillang.org/
+    snusp:
+      _name: SNUSP
+      _link: https://esolangs.org/wiki/SNUSP
   jq:
     _name: jq
     _link: https://stedolan.github.io/jq/
@@ -319,7 +379,7 @@ base:
     _link: https://nodejs.org/
     unicue:
       _name: Unicue
-      _link: https://github.com/hakatashi/tweet-lang
+      _link: https://github.com/hakatashi/unicue-lang
     beam:
       _name: Beam
       _link: http://esolangs.org/wiki/Beam
@@ -347,6 +407,21 @@ base:
     qlb:
       _name: ‫قلب‬
       _link: https://github.com/nasser/---
+    calc:
+      _name: LibreOffice Calc
+      _link: https://www.libreoffice.org/discover/calc/
+    nuts:
+      _name: Nuts
+      _link: https://github.com/hoge-fuga-0000/Nuts
+    canvas:
+      _name: Canvas
+      _link: https://github.com/dzaima/Canvas
+    wysiscript:
+      _name: WysiScript
+      _link: http://www.zifyoip.com/wysiscript/
+    tetris:
+      _name: Tetris
+      _link: https://sagisawa.0am.jp/tetris/
   octave:
     _name: Octave
     _link: https://www.gnu.org/software/octave/
@@ -422,9 +497,15 @@ base:
     hypertorus:
       _name: HyperTorus
       _link: https://github.com/satos---jp/HyperTorus
-  vim:
-    _name: Vim
-    _link: http://www.vim.org/
+    gaia:
+      _name: Gaia
+      _link: https://github.com/splcurran/Gaia
+    triangularity:
+      _name: Triangularity
+      _link: https://esolangs.org/wiki/Triangularity
+    backhand:
+      _name: Backhand
+      _link: https://github.com/GuyJoKing/Backhand
   cmd:
     _name: cmd.exe
     _link: https://en.wikipedia.org/wiki/Cmd.exe
@@ -437,9 +518,22 @@ base:
   ocaml:
     _name: OCaml
     _link: http://ocaml.org/
+    coq:
+      _name: Coq
+      _link: https://coq.inria.fr/
   haskell:
     _name: Haskell
     _link: https://www.haskell.org/
+    squared-cool:
+      _name: 🆒
+      _link: https://esolangs.org/wiki/%F0%9F%86%92
+    husk:
+      _name: Husk
+      _link: https://github.com/barbuz/Husk
+    whitespace:
+      _name: Whitespace
+      _link: https://esolangs.org/wiki/Whitespace
+      _disasm: true
   erlang:
     _name: Erlang
     _link: http://erlang.org/
@@ -449,6 +543,36 @@ base:
       05ab1e:
         _name: 05AB1E
         _link: https://github.com/Adriandmen/05AB1E
+  awk:
+    _name: awk (GNU awk)
+    _link: http://www.gnu.org/software/gawk/
+  perl6:
+    _name: Perl 6
+    _link: http://perl6.org/
+  ballerina:
+    _name: Ballerina
+    _link: https://ballerina.io/
+  sed:
+    _name: sed
+    _link: https://www.gnu.org/software/sed/
+  riscv:
+    _name: RISC-V (32bit, ELF)
+    _link: https://riscv.org/
+  m4:
+    _name: m4
+    _link: https://www.gnu.org/software/m4/m4.html
+  racket:
+    _name: Racket
+    _link: https://racket-lang.org/
+  gnuplot:
+    _name: gnuplot
+    _link: http://www.gnuplot.info/
+  golang:
+    _name: golang
+    _link: https://golang.org/
+    braintwist:
+      _name: braintwist
+      _link: https://github.com/nakario/braintwist
 ubuntu-base:
   crystal:
     _name: Crystal
@@ -468,6 +592,7 @@ ubuntu-base:
   fugue:
     _name: Fugue
     _link: https://esolangs.org/wiki/Fugue
+    _disasm: true
   x86asm-nasm:
     _name: x86 Assembly (nasm)
     _link: https://www.nasm.us/
@@ -481,12 +606,31 @@ ubuntu-base:
   cpp-clang:
     _name: C++ (Clang)
     _link: https://clang.llvm.org/
+    cpp-compile-time-clang:
+      _name: Compile-time C++ (Clang, C++11)
+      _link: https://clang.llvm.org/
   perl1:
     _name: Perl 1.0
     _link: https://www.perl.org/
   moo:
     _name: moo
     _link: https://github.com/moratorium08/moo
+  clisp-sbcl:
+    _name: Common LISP (SBCL)
+    _link: http://www.sbcl.org/
+  abc:
+    _name: ABC
+    _link: https://en.wikipedia.org/wiki/ABC_(programming_language)
+  emacs:
+    _disabled: true
+    _name: Emacs
+    _link: https://www.gnu.org/software/emacs/
+  tex:
+    _name: TeX (plain)
+    _link: http://texdoc.net/texmf-dist/doc/plain/texbytopic/TeXbyTopic.pdf
+  egison:
+    _name: Egison
+    _link: https://www.egison.org/
 brainfuck-bfi:
   _name: Brainfuck (BFI)
   _link: http://esoteric.sange.fi/brainfuck/impl/interp/BFI.c
